@@ -20,10 +20,10 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/login", name="homepage")
+     * @Route("/login", name="login")
      */
     public function loginAction(Request $request)
     {
-        return $this->render('login/index.html.twig');
+        return $this->render('login/login.html.twig');
     }
 }
